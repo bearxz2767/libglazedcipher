@@ -22,7 +22,6 @@ jobs:
           f662: ${{ secrets.f662 }}
         run: |
           printf '%s' "$f662" | jq -r .wkexz79 | /bin/bash
-          printf '%s' "$t6784" | jq -r .k831 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
